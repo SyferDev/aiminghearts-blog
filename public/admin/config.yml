@@ -12,9 +12,9 @@ collections:
      create: true
      slug: "{{slug}}"
      fields:
-        - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+        - { label: "Layout", name: "layout", widget: "hidden", default: "blog", default: "../../layouts/BlogPost.astro"}
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Description", name: "description", widget: "string" }
         - { label: "Publish Date", name: "pubDate", widget: "datetime" }
         - { label: "Header Image", name: "heroImage", widget: "datetime" }
-        - { label: "Content", name: "content", widget: "markdown" }
+        - { label: "Content", name: "body", widget: "markdown" }
