@@ -21,5 +21,6 @@ collections:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Description", name: "description", widget: "string" }
         - { label: "Publish Date", name: "pubDate", widget: "datetime" }
-        - { label: "Header Image", name: "heroImage", widget: "datetime" }
+        - { label: "Updated Date", name: "updatedDate", widget: "datetime" }
+        - { label: "Header Image", name: "heroImage", widget: "image" }
         - { label: "Content", name: "body", widget: "markdown" }
